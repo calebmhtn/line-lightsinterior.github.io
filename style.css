@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+}
+
+body{
+    background-image: url(Images/BACKGGEMINI.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.btn{
+    text-decoration: none;
+    top: 2vh;
+    display: inline-block;
+    padding: 10px 28px;
+    background: black;
+    border: 2px solid black;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s;
+}
+.btn:hover{
+    scale: 1.05;
+}
+
+.navbar a:hover{
+    color: blue;
+}
+
+
+.subtitlehome{
+    font-size: 125%;
+    margin-bottom: 10px;
+}
+
+.home-content {
+    
+    max-width: 630px;
+    color: white;
+    text-decoration: none;
+}
+.home {
+    margin: auto;
+    width: 80%;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    overflow-x: hidden;
+    padding: 5rem 0;
+
+}
+
+.hcpara {
+    font-family: Arial, Helvetica, sans-serif;
+    line-break: 50%;
+    margin-top: px;
+    font-size: 20px;
+    text-orientation: upright;
+    text-shadow: 0px 0px 5px black;
+}
+
+.subtitlehome h1{
+    font-size: 50px;
+    text-shadow: 0px 0px 5px black;
+
+}
+
+h3 {
+    text-shadow: 0px 0px 5px black;
+}
+.home .apart img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border: 2px solid gray;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px black;
+    margin: 10px;
+    object-fit: cover;
+}
+.home .homeTW{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+
+
+
+
